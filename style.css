@@ -1,0 +1,18 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.people{
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.people:hover{
+    background-color: burlywood;
+}
+
+.mail{
+    color:blue;
+    text-decoration: underline;
+}
